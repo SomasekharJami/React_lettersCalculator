@@ -1,0 +1,117 @@
+@media screen and (min-width: 768px) {
+  .mainCon {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Roboto;
+  }
+  .imgCon {
+    width: 50vw;
+    order: 1;
+  }
+  .mainImg {
+    width: 100%;
+  }
+  .textCon {
+    width: 35vw;
+  }
+  .mainH {
+    font-size: 4vw;
+    color: #ffffff;
+  }
+  .labelP {
+    font-size: 1vw;
+    color: #e4e7eb;
+    margin-bottom: 8px;
+  }
+  .inpBox {
+    width: 100%;
+    border: 1px solid #e4e7eb;
+    background-color: transparent;
+    font-size: 1.5vw;
+    padding: 5px;
+    border-radius: 6px;
+    color: #e4e7eb;
+    outline: none;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .countP {
+    width: 70%;
+    font-size: 3vw;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    color: #219a6f;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainCon {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    padding: 15px;
+  }
+  .imgCon {
+    width: 80vw;
+  }
+  .mainImg {
+    width: 100%;
+  }
+  .textCon {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainH {
+    font-size: 7vw;
+    color: #ffffff;
+    text-align: center;
+  }
+  .inpCon {
+    width: 70vw;
+  }
+  .labelP {
+    font-size: 3vw;
+    color: #e4e7eb;
+    margin-bottom: 8px;
+  }
+  .inpBox {
+    width: 100%;
+    border: 1px solid #e4e7eb;
+    background-color: transparent;
+    font-size: 3.5vw;
+    padding: 6px;
+    border-radius: 6px;
+    color: #e4e7eb;
+    outline: none;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .countP {
+    width: 100%;
+    font-size: 4vw;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    color: #219a6f;
+  }
+}
